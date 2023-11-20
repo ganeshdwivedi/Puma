@@ -49,8 +49,8 @@ function TimeComingSoon({
         </span>
     </div>
      <div className='flex lg:flex-row md:flex-row sm:flex-col gap-5'> 
-    <Button className='bg-white text-black sm:border-2 border-black' text={"Sign Up Now"} />
-    <Button className='bg-white text-black sm:border-2 border-black' text={"Explore Now"} />
+    <Button className='bg-white text-black md:border-none sm:border-2 border-black' text={"Sign Up Now"} />
+    <Button className='bg-white text-black md:border-none sm:border-2 border-black' text={"Explore Now"} />
     </div>
     </div>
   )
