@@ -69,64 +69,36 @@ function Footer({ className }) {
         <div className="sm:m-0 lg:m-5 Foothead bg-black">
           <h1 className="uppercase text-lg font-bold mb-3">Stay up to Date</h1>
           <div className="flex flex-row ">
-            <a
-              rel="noopener noreferrer"
-              className="my-4 mx-4"
-              href="https://www.youtube.com/puma"
-            >
+            
               <YouTubeIcon fontSize="medium" />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              className="my-4 mx-4"
-              href="https://twitter.com/PUMA"
-            >
+          
               <TwitterIcon fontSize="medium" />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              className="my-4 mx-4"
-              href="https://www.pinterest.com/puma/"
-            >
+          
               <PinterestIcon fontSize="medium" />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              className="my-4 mx-4"
-              href="https://instagram.com/puma/"
-            >
+            
               <InstagramIcon fontSize="medium" />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              className="my-4 mx-4"
-              href="https://www.facebook.com/PUMA/"
-            >
+            
               <FacebookIcon fontSize="medium" />
-            </a>
+           
           </div>
           <h1 className="uppercase text-lg font-bold mb-3">Explore</h1>
           <div className="flex flex-row">
             <div>
-              <a
-                rel="noopener noreferrer"
-                href="https://app.puma.com/web-download"
-              >
+              
                 <img
                   alt="Footer-img"
                   className="w-[60px] mr-5 rounded-md border-white border-solid border-[1px]"
-                  src="https://appcheck.mobilsicher.de/wp-content/uploads/2020/10/xhPDUD0i5MEguK1BBDge4CuOTsE7HdJjqol4OQqE5ecOih7akpcqF2LM3b8XE4tyPA.png"
-                />
-              </a>
+                  src="https://appcheck.mobilsicher.de/wp-content/uploads/2020/10/xhPDUD0i5MEguK1BBDge4CuOTsE7HdJjqol4OQqE5ecOih7akpcqF2LM3b8XE4tyPA.png"/>
+             
             </div>
             <div>
-              <a rel="noopener noreferrer" href="http://pumatr.ac/app">
+             
                 <img
                   alt="Footer-img"
                   className="w-[60px] rounded-md border-white border-solid border-[1px]"
                   src="https://www.networthspot.com/ezoimgfmt/yt3.ggpht.com/ytc/AMLnZu-958nknFKv2iFaKl2vciXTS-vRF_8EA4XZagDCQQ=s768-c-k-c0x00ffffff-no-rj?ezimgfmt=ngcb6/notWebP"
                 />
-              </a>
+             
             </div>
           </div>
         </div>
