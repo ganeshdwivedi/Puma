@@ -20,7 +20,7 @@ const page = () => {
   };
 
   return (
-    <div className="px-10 bg-cover sm:bg-right md:bg-left py-36  bg-no-repeat sm:bg-[url('https://images.pexels.com/photos/2748757/pexels-photo-2748757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] md:bg-[url('https://images.pexels.com/photos/1456737/pexels-photo-1456737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">
+    <div className="px-10 bg-cover overflow-hidden sm:bg-right md:bg-left py-36  bg-no-repeat sm:bg-[url('https://images.pexels.com/photos/2748757/pexels-photo-2748757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] md:bg-[url('https://images.pexels.com/photos/1456737/pexels-photo-1456737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">
     <form
       onSubmit={handleSubmit}
       className="flex flex-col sm:w-[90vw] p-5 md:w-[35vw] md:backdrop-blur-sm">
