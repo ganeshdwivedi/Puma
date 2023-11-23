@@ -70,15 +70,11 @@ function Footer({ className }) {
           <h1 className="uppercase text-lg font-bold mb-3">Stay up to Date</h1>
           <div className="flex flex-row ">
             
-              <YouTubeIcon fontSize="medium" />
-          
-              <TwitterIcon fontSize="medium" />
-          
-              <PinterestIcon fontSize="medium" />
-            
-              <InstagramIcon fontSize="medium" />
-            
-              <FacebookIcon fontSize="medium" />
+            <div  className="my-4 mx-4"> <YouTubeIcon fontSize="medium" /></div>
+             <div  className="my-4 mx-4">  <TwitterIcon fontSize="medium" /></div>
+             <div  className="my-4 mx-4"> <PinterestIcon fontSize="medium" /></div>
+             <div  className="my-4 mx-4"><InstagramIcon fontSize="medium" /></div>
+             <div  className="my-4 mx-4"><FacebookIcon fontSize="medium" /></div>
            
           </div>
           <h1 className="uppercase text-lg font-bold mb-3">Explore</h1>
