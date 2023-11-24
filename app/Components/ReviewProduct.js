@@ -2,9 +2,12 @@
 import React, {useEffect, useState } from "react";
 import Button from "./Button";
 import Images from "./Images";
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import {addtowishlist}  from "../Redux/wishlistSlice";
+import { useDispatch } from "react-redux";
 
 function ReviewProduct({params}) {
-  
+  const dispatch = useDispatch();
   const [product, setproduct] = useState([]);
   let id = params.slug;
   const BuyUrl =
@@ -20,6 +23,11 @@ function ReviewProduct({params}) {
   useEffect(() => {
     getproducts();
   }, []);
+
+  const AddToWishlist = (product)=>{
+    dispatch(addtowishlist(product));
+    
+  }
 
   return (
     <>
@@ -39,6 +47,7 @@ function ReviewProduct({params}) {
                 <h1>Price - ₹{product.price}</h1>
                 <p className="text-black">Rating: {product.rating}</p>
               </div>
+              <button onClick={()=> AddToWishlist(product)}><FavoriteBorderIcon/></button>
               <div className=" md:mt-3 sm:mt-8">
                 <Button
                   target={"_blank"}
